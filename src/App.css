@@ -1,0 +1,127 @@
+.Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Cardwrapper{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.App{
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card{
+    width: 300px;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 0 10px 0;
+}
+
+.Header-Contain{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.Header-Contain-Wrapper{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navs{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+.Icon{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+   navs{
+    display: none;
+   }
+
+   .Icon{
+    display: flex;
+   }
+}
+
+@media screen and (max-width: 425px) {
+    .Card{
+        width: 90%;
+    }
+}
+
+
+.Wrap{
+    width:90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 95%;
+    height: 45px;
+    border-radius: 1rem;
+    margin: 10px;
+    color:dimgrey;
+    font-size: 15px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+button{
+width: 100px;
+height: 40px;
+border-radius: 5px;
+background-color: green;
+border: 1px solid green;
+color: white;
+margin-top: 20px;
+}
+
+.Delete-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    margin-top: 20px;
+}
+
+.Link{
+    text-decoration: none;
+    color: inherit;
+}
+    

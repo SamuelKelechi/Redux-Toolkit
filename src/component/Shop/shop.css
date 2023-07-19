@@ -1,0 +1,103 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 30px 0;
+}
+
+.wrapper{
+    width: 90%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card{
+    height: 350px; 
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+
+.up{
+    width:100% ;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagehold{
+    width: 80%;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-hold{
+    width: 100%;
+}
+
+.downhold{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttnhold{
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    height: 40px;
+    justify-content: flex-end;
+    margin-left: -30px;
+}
+
+.butt{
+    background-color:peru ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+.title-contain{
+    width: 100%;
+    font-size: 14px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.details-btn{
+    height: 25px;
+    background-color: rgb(247, 199, 142);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.moving-text{
+    width: 400px;
+    font-size: 25px;
+    font-weight: 500;
+}
